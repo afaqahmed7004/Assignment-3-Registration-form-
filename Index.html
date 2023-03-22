@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <title>Resgistration Form</title>
+</head>
+
+<body>
+    <form>
+        <h1 class="Heading" id="heading1"> User Registration Form</h1>
+        <br><hr>
+        <h3 class="Heading" id="heading2">Enter Your Details Below :</h3>
+        <ul class="ul1">
+            
+            <li>Enter Your User-Name : <input type="text" id="Name" placeholder="Your Name"></li>
+            <br>
+            
+            <li>Enter Your Email Address : <input type="email" id="email" placeholder="abc@gmail.com"></li>
+            <br>
+            
+            <li>Enter Password Of Your Choice : <input type="password" id="password" placeholder="Password" required></li>
+            <b>(!Type a Complex password with 8-20 characters.)</b>
+            <br><br>
+           
+            <li> Contact Number : <input type="number" id="contact" placeholder="+91 Your Number"></li>
+        </ul>
+        <hr class="hr">
+        <h3 class="Heading" id="heading3">Enter Your Professional/Educational Status :</h3>
+        <ul class="ul1">
+            <li><input type="radio" name="profession" value="student">Student
+                <input type="radio" name="profession" value="teacher">Teacher
+                <input type="radio" name="profession" value="developer">Developer
+            </li>
+            <br><br>
+            <li>Select Qualification Status If Student<br>
+                <input type="checkbox">10th <input type="checkbox">12th <input type="checkbox">Graduate <input
+                    type="checkbox">Post-Graduate
+            </li>
+            <br>
+            <li>From Which City You Belong : <select name="city">
+                    <option value="Delhi">Delhi</option>
+                    <option value="mumbai">Mumbai</option>
+                    <option value="chennai">Chennai</option>
+                    <option value="kolkata">Kolkata</option>
+                    <option value="Bengaluru">Bengaluru</option>
+                </select></li> 
+        </ul>
+        <hr class="hr">
+        <ul class="ul1">
+            <li>Enter Your Birth Date : <input type="date"></li>
+
+        </ul>
+        <hr class="hr">
+        <ul class="ul1">
+            <li><textarea rows="5" cols="30" placeholder="Write Any Massage Or Suggesion"></textarea></li>
+        </ul>
+        <hr class="hr">
+        <div><span><input type="button" style="border-radius: 5px 1px 5px 1px;" value="Click Here To Register"></span>
+        <span><input type="button" style="border-radius: 5px 1px 5px 1px;" value="Click Here To Refil The Form"></span></div>
+
+    </form>
+</body>
+
+</html>
